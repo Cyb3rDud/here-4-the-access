@@ -164,18 +164,18 @@ nnoremap <F9> za
 onoremap <F9> <C-C>za
 vnoremap <F9> zf
 
-										" za = when on a closed fold, open it; :help fold-commands
-										" zf = create a fold; :help fold-commands
-										" zM = close all folds; :help fold-commands
-										" zR = open all folds; :help fold-commands
-										" <CR>	carriage-Return; :help key-notation
-										" <C-C>	quit command-line without executing
-										" <C-O>	insert register or object under the cursor; :help cmdline-editing
-										" <C-R>	insert the result of an expression at the cursor; :help cmdline-editing
-										" inoremap = insert mode; :help map-modes
-										" nnoremap = normal mode; :help map-modes
-                                        " onoremap = operator-pending mode; :help map-modes
-                                        " vnoremap = visual and select mode; :help map-modes
+" za = when on a closed fold, open it; :help fold-commands
+" zf = create a fold; :help fold-commands
+" zM = close all folds; :help fold-commands
+" zR = open all folds; :help fold-commands
+" <CR>	carriage-Return; :help key-notation
+" <C-C>	quit command-line without executing
+" <C-O>	insert register or object under the cursor; :help cmdline-editing
+" <C-R>	insert the result of an expression at the cursor; :help cmdline-editing
+" inoremap = insert mode; :help map-modes
+" nnoremap = normal mode; :help map-modes
+" onoremap = operator-pending mode; :help map-modes
+" vnoremap = visual and select mode; :help map-modes
 
 "	" }}}
 
