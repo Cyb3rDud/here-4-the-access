@@ -24,8 +24,8 @@ set shell:/bin/sh
 
 "	" Colors
 "	" {{{
-syntax enable           				" enable syntax processing
-colorscheme elflord						" set colorscheme for vim
+syntax enable								" enable syntax processing
+colorscheme elflord							" set colorscheme for vim
 
 syntax match timestamp '\d\d-\a\a\a-\d\d\d\d \d\d:\d\d:\d\d'
 highlight timestamp ctermbg=yellow ctermfg=black
@@ -69,9 +69,9 @@ set modelines=1							" gives the number of lines that is checked for set comman
 
 "	" Searching
 "	" {{{
-set ignorecase          				" ignore case when searching
-set incsearch           				" search as characters are entered
-set hlsearch            				" highlight matches
+set ignorecase          					" ignore case when searching
+set incsearch           					" search as characters are entered
+set hlsearch            					" highlight matches
 	" turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 "	" }}}
@@ -86,9 +86,9 @@ let maplocalleader=' '
 
 "	" Spaces & Tabs
 "	" {{{
-set tabstop=4           				" number of spaces that a <Tab> in the file counts for
-set expandtab           				" use spaces for tabs
-set softtabstop=4       				" number of spaces that a <Tab> counts for while editing
+set tabstop=4           					" number of spaces that a <Tab> in the file counts for
+set expandtab           					" use spaces for tabs
+set softtabstop=4       					" number of spaces that a <Tab> counts for while editing
 " set autoindent						" copy indent from current line when starting a new line
 "	" }}}
 
@@ -98,13 +98,13 @@ set softtabstop=4       				" number of spaces that a <Tab> counts for while edi
 filetype indent on						" enable loading the indent file for specific file types
 filetype plugin on						" enable loading the plugin files for specific file types
 set nonumber							" show line numbers
-set showcmd             				" show command in bottom bar
+set showcmd             					" show command in bottom bar
 " set cursorline        					" highlight current line; makes screen redrawing slower
 set wildmenu							" command-line completion operates in an enhanced mode. On pressing 'wildchar' (usually <Tab>) to invoke completion, the possible matches are shown just above the command line
 set lazyredraw							" screen will not be redrawn while executing macros, registers and other commands that have not been typed
-set showmatch           				" highlight matching [{()}]
-set fillchars+=vert:┃					" characters to fill the statuslines and vertical separators
-nmap <Leader>eh :set list!<CR>			" show hidden characters
+set showmatch           					" highlight matching [{()}]
+set fillchars+=vert:┃						" characters to fill the statuslines and vertical separators
+nmap <Leader>eh :set list!<CR>					" show hidden characters
 "	" }}}
 
 
